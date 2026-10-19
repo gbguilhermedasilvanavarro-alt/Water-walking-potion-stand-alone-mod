@@ -1,0 +1,13 @@
+Water Walking — Minecraft 1.21.1 / NeoForge 21.1.263
+
+Requires Java 21 and internet access for Gradle/Minecraft/NeoForge dependencies.
+
+Local build:
+  Linux/macOS: ./gradlew --no-daemon build
+  Windows: gradlew.bat --no-daemon build
+
+Output: build/libs/*.jar
+
+If you cannot use a computer, this project includes .github/workflows/build.yml for GitHub Actions cloud builds. Upload the project contents to a GitHub repository, open Actions, run “Build Water Walking”, then download the waterwalking-neoforge-1.21.1 artifact from the completed workflow run.
+
+This environment cannot resolve services.gradle.org, so a compiled JAR could not be built or verified here.
